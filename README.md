@@ -1,4 +1,4 @@
-# Bajet Code Challenge
+# ChunkIt
 
 A high-performance file processing system designed to efficiently process large files in parallel.
 
