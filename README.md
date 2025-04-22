@@ -69,7 +69,7 @@ source_account	amount	ssn
 ```
 
 ## Performance Considerations
-![alt text](image.png)
+![benchmark](src/BajetCodeChallenge/Benchmark/benchmark.png)
 - The system automatically scales to use all available CPU cores
 - For very large files, the parallel processing mode is recommended
 - For smaller files, the single producer mode may be more efficient
