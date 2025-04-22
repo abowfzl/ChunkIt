@@ -54,7 +54,7 @@ For smaller files or when parallel processing isn't needed:
 
 ```csharp
 var processor = new TransactionProcessor();
-var result = await processor.RunWihSingleProducer("path/to/transaction/file.txt");
+var result = await processor.Run("path/to/file.txt", true);
 ```
 
 ## Input File Format
